@@ -1,17 +1,24 @@
 var rect = require('./rectangle');
 
 function solveRect(l,b) {
-    console.log("Solving for rectangle with l = " + l + " and b = " + b);
-
-    if (l <= 0 || b <= 0) {
-        console.log("Rectangle dimensions should be greater than zero:  l = "
-               + l + ",  and b = " + b);
-    }
-    else {
-	    console.log("The area of the rectangle is " + rect.area(l,b));
-	    console.log("The perimeter of the rectangle is " + rect.perimeter(l,b));
-    }
-}
+    console.log("Solving for rectangle with l = "
+                + l + " and b = " + b);
+                // callback function
+    rect(l,b, (err,rectangle) => {
+        if (err) {
+	        console.log("ERROR: ", err.message);
+	    }
+        else {
+          // call the area and perimeter from rectangle file
+          // no parameters are passed as closure that vaiables with parent function are accessible to inner function
+            console.log("The area of the rectangle of dimensions l = "
+                + l + " and b = " + b + " is " + rectangle.area());
+            console.log("The perimeter of the rectangle of dimensions l = "
+                + l + " and b = " + b + " is " + rectangle.perimeter());
+        }
+    });
+    console.log("This statement after the call to rect()");
+};
 
 solveRect(2,4);
 solveRect(3,5);

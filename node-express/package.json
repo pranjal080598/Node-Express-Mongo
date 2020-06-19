@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pranjal080598/Node-Express-Mongo#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   }
 }

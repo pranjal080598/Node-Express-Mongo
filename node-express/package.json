@@ -1,0 +1,23 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranjal080598/Node-Express-Mongo.git"
+  },
+  "author": "Pranjal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranjal080598/Node-Express-Mongo/issues"
+  },
+  "homepage": "https://github.com/pranjal080598/Node-Express-Mongo#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

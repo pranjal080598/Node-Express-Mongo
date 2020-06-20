@@ -12,6 +12,8 @@ var leaderRouter = require('./routes/leaderRouter');
 
 const mongoose = require('mongoose');
 const Dishes = require('./models/dishes');
+const Promotions = require('./models/promotions');
+const Leader = require('./models/leaders');
 const url = 'mongodb://localhost:27017/confused';
 const connect = mongoose.connect(url);
 connect.then((db) => {

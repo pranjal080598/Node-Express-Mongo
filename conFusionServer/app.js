@@ -10,7 +10,7 @@ var path = require('path');
 //var authenticate = require( path.resolve( __dirname, "conFusionServer/authenticate" ) );
 var authenticate = require('./authenticate.js');
 var config = require('./config');
-const url = config.mongoUrl;
+//const url = config.mongoUrl;
 
 
 var indexRouter = require('./routes/index');

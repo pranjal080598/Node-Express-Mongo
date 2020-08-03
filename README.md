@@ -1,4 +1,4 @@
-Developed a backend focused website for the same Hotel whose UI is developed in 'Frontend_Web_Bootstrap' project (repository can be found on my github). Used Node, Express and
+Developed a backend focused website for the same Hotel Ristorte whose UI is developed in 'Frontend_Web_Bootstrap' project (repository can be found on my github). Used Node, Express and
 MongoDB for the same. Steps:
 1. Donwload/Clone repository
 2. Make sure to install nodejs

@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/pranjal080598/Node-Express-Mongo#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "morgan": "^1.9.0"
   }
 }
